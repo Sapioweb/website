@@ -24,4 +24,4 @@ jobs:
         commands: |
           cd /var/www/sapioweb.com/website/
           git pull
-          ng deploy --prod
+          ng build --prod
