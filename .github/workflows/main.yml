@@ -1,0 +1,27 @@
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: SSH command runner
+      uses: Evaneos/ssh-action@v0.1.0
+      with:
+        user:
+          ${{ secrets.SERVER_USER }}
+        hosts:
+          ${{ secrets.SERVER_IP }}
+        private_key:
+          ${{ secrets.SSH_KEY }}
+        commands: |
+          cd /var/www/sapioweb.com/website/
+          git pull
+          npm deploy --prod
