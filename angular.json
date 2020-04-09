@@ -25,9 +25,43 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/animate.css/animate.min.css",
+              "node_modules/et-line/style.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/magnific-popup/dist/magnific-popup.css",
+              "src/assets/css/extralayers.css",
+              "src/assets/css/full-slider.css",
+              "src/assets/css/menu-hamburger.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/text-effect.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery-smooth-scroll/src/jquery.smooth-scroll.js",
+              "src/assets/js/classie.js",
+              "node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
+              "node_modules/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js",
+              "node_modules/skrollr/dist/skrollr.min.js",
+              "node_modules/jquery.appear/jquery.appear.js",
+              "node_modules/wowjs/dist/wow.min.js",
+              "node_modules/jquery.easing/jquery.easing.min.js",
+              "node_modules/fitvids/dist/fitvids.min.js",
+              "node_modules/jquery-countto/jquery.countTo.js",
+              "node_modules/easy-pie-chart/dist/easypiechart.min.js",
+              "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+              "node_modules/easy-pie-chart/dist/jquery.easypiechart.min.js",
+              "node_modules/jquery-parallax/scripts/jquery.parallax-1.1.3.js",
+              "node_modules/page-scroll/dist/page-scroll.min.js",
+              "src/assets/js/text-effect.js",
+              "src/assets/js/imagesloaded.pkgd.min.js",
+              "src/assets/js/popup-gallery.js",
+              "src/assets/js/hamburger-menu.js",
+              "src/assets/js/counter.js",
+              "src/assets/js/modernizr.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
