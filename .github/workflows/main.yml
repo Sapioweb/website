@@ -15,6 +15,7 @@ jobs:
     - name: SSH command runner
       uses: Evaneos/ssh-action@v0.1.0
       with:
+        node-version: '10.19.*'
         user:
           ${{ secrets.SERVER_USER }}
         hosts:
